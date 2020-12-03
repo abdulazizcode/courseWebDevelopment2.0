@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.top-container{
+    background-color: #dbf6e9;
+}
+
+.middle-container{
+    background-color: red;
+    width: 150px;
+    height: 150px;
+}
+
+.bottom-container{
+    background-color: blue;
+    width: 150px;
+    height: 150px;
+}
