@@ -2,19 +2,32 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-align: center;
 }
+
+@font-face {
+  font-family: myFirstFont;
+  src: url(fonts/MarckScript-Regular.ttf);
+}
+@font-face {
+    font-family: mySecondFont;
+    src: url(fonts/Sacramento-Regular.ttf);
+  }
 .top-container{
     background-color: #dbf6e9;
+    padding-top: 200px;
+    height: 100vh;
+}
+.top-container h1 {
+    padding-bottom: 30px;
+    font-family: myFirstFont;
+}
+.top-container p {
+    font-family: myFirstFont;
+    font-size:20px;
 }
 
-.middle-container{
-    background-color: red;
-    width: 150px;
-    height: 150px;
-}
-
-.bottom-container{
-    background-color: blue;
-    width: 150px;
-    height: 150px;
+img {
+    width: 60%;
+    height: auto;
 }
