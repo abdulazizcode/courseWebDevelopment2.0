@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 500px;
+    height: 250px;
+    margin-top: 50px;
+    margin-left: 50px;
+    box-shadow: 2px 2px 2px 2px grey;
+    display: flex;
+    justify-content: space-around;
+    align-items: center
+}
+.container div{
+    
+}
+.container div:first-child{
+    background-color:grey;
+    width:200px;
+    height: 100px;
+    
+    
+}
+.container div:last-child{
+    background-color:red;
+    width:200px;
+    height: 100px;
+}
