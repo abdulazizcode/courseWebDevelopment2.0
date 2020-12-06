@@ -30,6 +30,12 @@ body{
     border-bottom-left-radius: 18px;
     border-bottom-right-radius: 18px;
 }
+.card__bottom p {
+    font-size: 14px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 10px;
+    letter-spacing: 1.2px;
+}
 .card__bottom img{
     border-radius: 50%;
     border: 5px solid white;
@@ -38,6 +44,13 @@ body{
     left: 95px;
     
 }
+.card__bottom hr{
+    margin-top: 25px;
+    height: 2px;
+    background-color:lightgray;
+    border: none;
+}
+
 h3{
     text-align: center;
     margin-top: -35px;
@@ -50,6 +63,16 @@ p{
     margin-top: 15px;
 }
 .footer{
-    display:flex;
-    justify-content:space-around;
+    display: flex;
+    margin-top: 25px;
+    justify-content: space-around;
+}
+.container__box p{
+    font-size: 12px;
+    letter-spacing: 1.5px;
+    margin-top: 8px;
+}
+.container__box span{
+    font-weight: 800;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
