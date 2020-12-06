@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+// ### Primary
+
+// - Very Dark Blue: hsl(243, 87%, 12%)
+// - Desaturated Blue: hsl(238, 22%, 44%)
+
+// ### Accent
+
+// - Bright Blue: hsl(224, 93%, 58%)
+// - Moderate Cyan: hsl(170, 45%, 43%)
+
+// ### Neutral
+
+// - Light Grayish Blue: hsl(240, 75%, 98%)
+// - Light Gray: hsl(0, 0%, 75%)
+
+$bgcolor: lightblue;
+$textcolor: darkblue;
+$fontsize: 18px;
+
+@font-face {
+    font-family: "Open Sans";
+    src: url("/challenge3/fonts/OpenSans/OpenSans-Regular.ttf") format("ttf");
+  }
+
+  @font-face {
+    font-family: "Releway";
+    src: url("/challenge3/fonts/Relway/static/Raleway-Regular.ttf") format("ttf");
+  }
+
+body{
+
+}

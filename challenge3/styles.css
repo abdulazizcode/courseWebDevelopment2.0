@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Open Sans";
+  src: url("/challenge3/fonts/OpenSans/OpenSans-Regular.ttf") format("ttf");
+}
+@font-face {
+  font-family: "Releway";
+  src: url("/challenge3/fonts/Relway/static/Raleway-Regular.ttf") format("ttf");
+}
+
+/*# sourceMappingURL=styles.css.map */
