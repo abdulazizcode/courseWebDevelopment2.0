@@ -50,7 +50,10 @@ body{
     background-color:lightgray;
     border: none;
 }
-
+.card__bottom span{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 1.2px;
+}
 h3{
     text-align: center;
     margin-top: -35px;
@@ -75,4 +78,8 @@ p{
 .container__box span{
     font-weight: 800;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.attribution{
+    margin-top: 25px;
+    font-size:13px;
 }
