@@ -5,12 +5,163 @@
 }
 
 @font-face {
+  font-family: "Open Sans Bold";
+  src: url("/challenge3/fonts/OpenSans/OpenSans-ExtraBold.ttf");
+}
+@font-face {
   font-family: "Open Sans";
-  src: url("/challenge3/fonts/OpenSans/OpenSans-Regular.ttf") format("ttf");
+  src: url("/challenge3/fonts/OpenSans/OpenSans-Regular.ttf");
 }
 @font-face {
   font-family: "Releway";
-  src: url("/challenge3/fonts/Relway/static/Raleway-Regular.ttf") format("ttf");
+  src: url("/challenge3/fonts/Relway/static/Raleway-SemiBold.ttf");
+}
+body {
+  font-family: "Open Sans";
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+  align-items: center;
+  padding: 0 30px 0 30px;
+}
+
+.nav__logo img {
+  width: 80px;
+  object-fit: contain;
+}
+
+.ul {
+  display: flex;
+}
+
+.ul li {
+  list-style-type: none;
+  margin-left: 20px;
+}
+
+.ul li a {
+  text-decoration: none;
+  color: #312B51;
+  font-size: 12px;
+  font-weight: 300;
+}
+
+.container {
+  padding: 30px;
+}
+
+.container img {
+  width: 100%;
+  height: 180px;
+  object-fit: contain;
+}
+
+.container__info h1 {
+  font-family: "Open Sans Bold";
+  width: 330px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  margin-left: -10px;
+  text-align: center;
+  color: #070439;
+}
+
+@font-face {
+  font-family: "Open Sans Text";
+  src: url("/challenge3/fonts/Relway/static/Raleway-Medium.ttf");
+}
+.container__info p {
+  font-family: "Open Sans Text";
+  width: 330px;
+  line-height: 25px;
+  text-align: center;
+  font-weight: 400;
+  color: #292442;
+  margin-left: -14px;
+}
+
+.container__subscribe {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+}
+
+.container__subscribe input {
+  padding: 15px;
+  border: none;
+  border: 1px solid black;
+  margin-bottom: 15px;
+}
+
+.container__subscribe .btn {
+  background-color: #3065f8;
+  padding: 13px;
+  color: white;
+  font-family: "Open Sans";
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  body {
+    background-color: lightgreen;
+  }
+
+  .container__info {
+    margin-left: 15px;
+  }
+
+  .container__info h1 {
+    font-family: "Open Sans Bold";
+    width: auto;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    text-align: center;
+    color: #070439;
+  }
+
+  .container__info p {
+    font-family: "Open Sans Text";
+    width: auto;
+    line-height: 25px;
+    text-align: center;
+    font-weight: 400;
+    color: #292442;
+    margin-left: -14px;
+  }
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  body {
+    background-color: lime;
+  }
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  body {
+    background-color: white;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 0;
+    align-items: center;
+  }
+
+  .container div img {
+    width: auto;
+    height: 300px;
+  }
+
+  .res {
+    padding: 30px;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
