@@ -1,0 +1,29 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.card{
+    height: 85vh;
+    width: 80vw;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-shadow: 2px 2px 2px 2px lightgray;
+}
+.card img {
+    width: 200px;
+}
+@media only screen and (min-width: 1000px){
+    .card{
+        flex-direction: row-reverse;
+    }
+}
+
+@media only screen and (max-height: 640px) {
+    .card {
+      flex-direction: row-reverse;
+      padding: 0;
+    }
+  }
