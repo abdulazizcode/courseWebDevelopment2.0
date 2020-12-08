@@ -1,0 +1,19 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+
+.box{
+    padding: 10px;
+    color: #fff;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.box1{background-color: #fff3b2; flex: 5;}
+.box2{background-color: #999b84;}
+.box3{background-color: #4e8d7c;}
+.box4{background-color: #045762;}
+.box5{background-color: #583d72;}
+.box6{background-color: #ff8e71;}
+
+.container{
+    display: flex;
+}

@@ -21,14 +21,21 @@
 .box9{background-color: #0a043c;}
 .box10{background-color: #61b15a;}
 
-.container{
+/* .container{
     display: flex; /* flex-inline */ 
-    height: 100vh;
-    border: 10px solid goldenrod;
+    /* height: 100vh;
+    border: 10px solid goldenrod; */
     /* flex-direction: row; row, row-reverce, column, column-reverse */
-    flex-wrap: wrap;  /*nowrap */
-}
+    /* flex-wrap: wrap;  nowrap 
+} */
 
-.box{
+/* .box{
     width: 300px;
-}
+} */
+
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+} 
