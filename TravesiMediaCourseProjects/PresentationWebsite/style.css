@@ -7,3 +7,17 @@
     --animate-speed:1s;
 }
 
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.4;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+/* Page Color */
+#page-1{background-color: var(--page-1-color);}
+#page-2{background-color: var(--page-2-color);}
+#page-3{background-color: var(--page-3-color);}
+#page-4{background-color: var(--page-4-color);}
