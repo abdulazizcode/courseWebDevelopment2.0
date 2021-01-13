@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.grid{
+    padding: 50px;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+.item{
+    padding: 10rem;
+    border: 1px solid #ccc;
+    font-size: 1.3rem;
+    font-weight: bold;
+    background-color: #f4f4f4;
+    text-align: center;
+}
