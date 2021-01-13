@@ -1,0 +1,30 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.item{
+    padding: 3rem;
+    border: 1px solid #ccc;
+    font-size: 1.3rem;
+    font-weight: bold;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+.item:first-child{
+    /* grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 3; */
+    grid-column: 1 / span 3;
+    grid-row: 1 / span 2;
+}
+.item:nth-child(9){
+    grid-column: 2/ span 3;
+    grid-row: 4 / span 2;
+}
