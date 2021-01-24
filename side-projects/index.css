@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing:border-box;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+.header{
+    display: flex;
+    padding: 20px;
+    box-shadow:2px 2px 2px 2px lightgrey;
+}
+
+.header .menu--btn i{
+    font-size:20px;
+}
+.header .menu--btn i:hover{
+    color:#eee;
+}
+.menu{
+    width:300px;
+    height: 100vh;
+}
+.menu--container{
+    background-color: #dddd;
+    width:100%;
+    height: 100%;
+}
