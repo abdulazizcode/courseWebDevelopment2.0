@@ -1,0 +1,11 @@
+form{
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+    margin: 0 auto;
+    box-shadow:2px 2px 2px 2px lightgray;
+    width:370px;
+}
+form input{
+    padding:8px;
+}
