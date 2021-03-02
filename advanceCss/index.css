@@ -1,0 +1,17 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+.container{
+    height:100vh;
+    float: right;
+}
+.container img{
+    height:610px ;
+    object-fit: contain;
+}
+
+img{
+    clip-path: polygon(46% 21%, 43% 11%, 25% 0, 65% 0%, 100% 0, 100% 46%, 100% 100%, 17% 100%, 11% 88%, 10% 77%, 16% 55%, 43% 33%);
+}
